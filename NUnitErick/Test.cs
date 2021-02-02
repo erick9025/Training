@@ -7,7 +7,7 @@ namespace NUnitErick
     public class Test
     {
         /// <summary>
-        /// Author: Erick Jiménez | erick9025@hotmail.com
+        /// Author: Erick Jiménez Rodríguez | erick9025@hotmail.com
         /// Repository URL: https://github.com/erick9025/Training
         /// </summary>
         [Test()]
