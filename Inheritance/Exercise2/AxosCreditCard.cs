@@ -125,5 +125,10 @@ namespace Inheritance.Exercise2
 
             return cardMask;
         }
+
+        public void AddAdditionals()
+        {
+            this.hasAdditionals = true;
+        }
     }
 }

@@ -37,6 +37,7 @@ namespace NUnitErick
             AxosCreditCard card3 = new AxosCreditCard("Lionel Messi", "340001230456010", 999999, CardNetworks.AmericanExpress);
             Console.WriteLine("How many cards created so far: " + AxosCreditCard.cardCounter);
 
+            card3.AddAdditionals();
             card3.PrintCardDetails();
         }
 
