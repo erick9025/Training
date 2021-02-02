@@ -24,7 +24,15 @@ namespace Inheritance.Exercise2
         public AxosCreditCard(string owner, string cardNumber, double lineOfCredit, CardNetworks network)
         {
             //Assertions / Validations (Use of NUnit Library/Nuget)
-            Assert.AreEqual(16, cardNumber.Length, "Card number should be 16 digits");
+            if (network == CardNetworks.AmericanExpress)
+            {
+                Assert.AreEqual(15, cardNumber.Length, "Card number should be 15 digits for AMEX");
+            }
+            else
+            {
+                Assert.AreEqual(16, cardNumber.Length, "Card number should be 16 digits");
+            }
+
             Assert.IsTrue(lineOfCredit > 0.00, "Line Of Credit must be greater than zero");
 
             this.cardHolder = owner;

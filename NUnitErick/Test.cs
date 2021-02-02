@@ -14,26 +14,27 @@ namespace NUnitErick
         public void Exercise_AxosCards()
         {
             //declare and instantiate object (2 actions on a SINGLE LINE)
-            AxosCreditCard card1 = new AxosCreditCard("Erick Jimenez", "4792012304560789", 50000, CardNetworks.Mastercard);
+            AxosCreditCard card1 = new AxosCreditCard("Erick Jiménez", "5491012304560789", 50000, CardNetworks.Mastercard);
 
             //declare object ONLY
             AxosCreditCard card2;
 
             //instantiate object ONLY
-            card2 = new AxosCreditCard("Dua Lipa", "4143101304560796", 999999, CardNetworks.AmericanExpress);
+            card2 = new AxosCreditCard("Dua Lipa", "4111009304560796", 999999, CardNetworks.Visa);
 
             card2.Deposit(1500);
 
             card1.PrintBalance();
-            card1.BuySomething(1754.17, "ABC1234xyz", "Walmart Retail");
+            card1.BuySomething(1754.17, "ABC1234", "Walmart Retail");
+            card1.BuySomething(10, "PPL9871", "Paypal Payment");
             card1.Withdraw(45.83);
             card1.PrintCardDetails();
-            card1.BuySomething(10, "QJXR9414", "Amazon Marketplace");
+            card1.BuySomething(300, "QJXR9414", "Amazon Marketplace");
             card1.PrintCardDetails();
 
             card2.PrintCardDetails();
 
-            AxosCreditCard card3 = new AxosCreditCard("Lionel Messi", "4792012304560010", 999999, CardNetworks.Visa);
+            AxosCreditCard card3 = new AxosCreditCard("Lionel Messi", "340001230456010", 999999, CardNetworks.AmericanExpress);
             Console.WriteLine("How many cards created so far: " + AxosCreditCard.cardCounter);
 
             card3.PrintCardDetails();
