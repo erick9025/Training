@@ -7,8 +7,7 @@ namespace NUnitErick
     public class Test
     {
         /// <summary>
-        /// Author: Erick Jiménez
-        /// Email: erick9025@hotmail.com
+        /// Author: Erick Jiménez | erick9025@hotmail.com
         /// Repository URL: https://github.com/erick9025/Training
         /// </summary>
         [Test()]
@@ -26,13 +25,12 @@ namespace NUnitErick
             card2.Deposit(1500);
 
             card1.PrintBalance();
-
             card1.BuySomething(1754.17, "ABC1234", "Walmart Retail");
             card1.Withdraw(45.83);
             card1.PrintCardDetails();
-
             card1.BuySomething(10, "QJXR9414", "Amazon Marketplace");
             card1.PrintCardDetails();
+
             card2.PrintCardDetails();
 
             AxosCreditCard card3 = new AxosCreditCard("Lionel Messi", "4792012304560010", 999999, CardNetworks.Visa);
@@ -44,7 +42,7 @@ namespace NUnitErick
         [Test()]
         public void PendingName()
         {
-            Console.WriteLine("GO KANSAS CITY CHIEFS!!!");
+            
         }
     }
 }
