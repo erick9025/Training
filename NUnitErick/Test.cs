@@ -7,11 +7,11 @@ namespace NUnitErick
     public class Test
     {
         /// <summary>
-        /// Author: Erick Jiménez Rodríguez | erick9025@hotmail.com
+        /// Author: Erick Jiménez Rodríguez | erick9025@hotmail.com | Guadalajara, México
         /// Repository URL: https://github.com/erick9025/Training
         /// </summary>
         [Test()]
-        public void TestingAxosCards()
+        public void Exercise_AxosCards()
         {
             //declare and instantiate object (2 actions on a SINGLE LINE)
             AxosCreditCard card1 = new AxosCreditCard("Erick Jimenez", "4792012304560789", 50000, CardNetworks.Mastercard);
