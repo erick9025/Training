@@ -6,6 +6,11 @@ namespace NUnitErick
     [TestFixture()]
     public class Test
     {
+        /// <summary>
+        /// Author: Erick Jiménez
+        /// Email: erick9025@hotmail.com
+        /// Repository URL: https://github.com/erick9025/Training
+        /// </summary>
         [Test()]
         public void TestingAxosCards()
         {
