@@ -22,7 +22,7 @@ namespace NUnitErick
 
             card1.PrintBalance();
 
-            card1.BuySomething(1754.17, "ZABC1234", "Walmart Retail");
+            card1.BuySomething(1754.17, "ABC1234", "Walmart Retail");
             card1.Withdraw(45.83);
             card1.PrintCardDetails();
 
@@ -32,6 +32,8 @@ namespace NUnitErick
 
             AxosCreditCard card3 = new AxosCreditCard("Lionel Messi", "4792012304560010", 999999, CardNetworks.Visa);
             Console.WriteLine("How many cards created so far: " + AxosCreditCard.cardCounter);
+
+            card3.PrintCardDetails();
         }
 
         [Test()]
