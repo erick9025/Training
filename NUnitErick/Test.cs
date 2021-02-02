@@ -25,7 +25,7 @@ namespace NUnitErick
             card2.Deposit(1500);
 
             card1.PrintBalance();
-            card1.BuySomething(1754.17, "ABC1234", "Walmart Retail");
+            card1.BuySomething(1754.17, "ABC1234xyz", "Walmart Retail");
             card1.Withdraw(45.83);
             card1.PrintCardDetails();
             card1.BuySomething(10, "QJXR9414", "Amazon Marketplace");

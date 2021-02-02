@@ -62,7 +62,7 @@ namespace Inheritance.Exercise2
             //Validate and if FAIL, stop program and print a message
             Assert.IsTrue(transactionAmount > 0.00, "Transaction amount must be greater than zero");
             Assert.IsFalse(string.IsNullOrEmpty(authNumber), "Authorization number can NOT be null/empty");
-            Assert.IsFalse(string.IsNullOrEmpty(concept), "Concept can NOT be null/empty");
+            Assert.IsFalse(string.IsNullOrEmpty(concept) && concept.Length >= 7, "Concept can NOT be null/empty and must have at least 7 chars");
 
             base.Withdraw(transactionAmount);
             Console.WriteLine($"New purchase @ {GetCardMask()}:");
