@@ -7,6 +7,10 @@ namespace ErickRun
     [TestClass]
     public class TestCreditCards
     {
+        /// <summary>
+        /// Author: Erick Jiménez
+        /// </summary>
+
         [TestMethod]
         public void Exercise_CreditCards()
         {
