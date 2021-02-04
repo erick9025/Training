@@ -38,7 +38,7 @@ namespace NUnitErick
             Console.WriteLine("How many cards created so far: " + AxosCreditCard.cardCounter);
 
             card3.AddAdditionals();
-            card3.PrintCardDetails();
+            card3.PrintCardDetails(); //comentario intencional
         }
 
         [Test()]
