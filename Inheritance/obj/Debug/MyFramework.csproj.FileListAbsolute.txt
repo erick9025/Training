@@ -1,0 +1,9 @@
+C:\Users\erick.jimenez\Documents\GitHub\Training\Inheritance\bin\Debug\Inheritance.dll
+C:\Users\erick.jimenez\Documents\GitHub\Training\Inheritance\bin\Debug\Inheritance.pdb
+C:\Users\erick.jimenez\Documents\GitHub\Training\Inheritance\bin\Debug\nunit.framework.dll
+C:\Users\erick.jimenez\Documents\GitHub\Training\Inheritance\bin\Debug\nunit.framework.xml
+C:\Users\erick.jimenez\Documents\GitHub\Training\Inheritance\obj\Debug\MyFramework.csprojAssemblyReference.cache
+C:\Users\erick.jimenez\Documents\GitHub\Training\Inheritance\obj\Debug\MyFramework.csproj.CoreCompileInputs.cache
+C:\Users\erick.jimenez\Documents\GitHub\Training\Inheritance\obj\Debug\MyFramework.csproj.CopyComplete
+C:\Users\erick.jimenez\Documents\GitHub\Training\Inheritance\obj\Debug\Inheritance.dll
+C:\Users\erick.jimenez\Documents\GitHub\Training\Inheritance\obj\Debug\Inheritance.pdb

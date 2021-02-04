@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\erick.jimenez\\Documents\\GitHub\\Training\\ErickRun\\TestCases.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\erick.jimenez\\Documents\\GitHub\\Training\\ErickRun\\TestCases.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\erick.jimenez\\Documents\\GitHub\\Training\\ErickRun\\TestCases.csproj",
+        "projectName": "TestCases",
+        "projectPath": "C:\\Users\\erick.jimenez\\Documents\\GitHub\\Training\\ErickRun\\TestCases.csproj",
+        "packagesPath": "C:\\Users\\erick.jimenez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\erick.jimenez\\Documents\\GitHub\\Training\\ErickRun\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\erick.jimenez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\erick.jimenez\\Documents\\GitHub\\Training\\Inheritance\\MyFramework.csproj": {
+                "projectPath": "C:\\Users\\erick.jimenez\\Documents\\GitHub\\Training\\Inheritance\\MyFramework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\erick.jimenez\\Documents\\GitHub\\Training\\Inheritance\\MyFramework.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\erick.jimenez\\Documents\\GitHub\\Training\\Inheritance\\MyFramework.csproj",
+        "projectName": "MyFramework",
+        "projectPath": "C:\\Users\\erick.jimenez\\Documents\\GitHub\\Training\\Inheritance\\MyFramework.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
