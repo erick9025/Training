@@ -46,10 +46,17 @@
     <Compile Include="Exercise2\CreditCard.cs" />
     <Compile Include="Exercise2\AxosDebitCard.cs" />
     <Compile Include="Exercise2\AxosCreditCard.cs" />
+    <Compile Include="Exercise3\Customer.cs" />
+    <Compile Include="Exercise3\Countries.cs" />
+    <Compile Include="Exercise3\TestUtilities.cs" />
+    <Compile Include="Exercise3\Person.cs" />
+    <Compile Include="Exercise3\Flight.cs" />
+    <Compile Include="Exercise3\AirplaneInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Exercise1\" />
     <Folder Include="Exercise2\" />
+    <Folder Include="Exercise3\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
